@@ -28,8 +28,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bt-pink": "#e61e77", // The Black Tomato pink from the button
+        "bt-dark": "#1a1a1a", // A soft black for text
+        "bt-cream": "#f8f5f0", // A light cream background color
+        "bt-brown": "#c16d47", // The brown from the final section
+      },
+      fontFamily: {
+        serif: ["var(--font-playfair)", "serif"],
+        sans: ["var(--font-inter)", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
