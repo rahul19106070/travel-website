@@ -206,14 +206,15 @@ export default function Home() {
             Pursuit of <br /> Feeling
           </h2>
           <p className="text-gray-600 leading-relaxed italic text-lg">
-            {"It’s not where you want to go; it’s how you want to feel."}
+            &quot;It&apos;s not where you want to go; it&apos;s how you want to
+            feel.&quot;
           </p>
+
           <p className="text-gray-600 leading-relaxed">
-            {
-              " Travel has always been about more than just going 'somewhere else'."
-            }
-            For us, travel is about feeling somewhere else.
+            Travel has always been about more than just going &apos;somewhere
+            else&apos;. For us, travel is about feeling somewhere else.
           </p>
+
           <button className="bg-black text-white px-10 py-3 text-[10px] uppercase font-bold tracking-widest">
             Find Out More
           </button>
@@ -251,10 +252,11 @@ export default function Home() {
           The Luxury Travel Experts
         </h2>
         <p className="text-gray-600 max-w-4xl mx-auto mb-16 text-lg">
-          {
-            "The world is vast, full of wonders. But information engulfs us. See this, do that, don't miss this. It seems the more choice there is, the more overwhelmed we feel."
-          }
+          The world is vast, full of wonders. But information engulfs us. See
+          this, do that, don&apos;t miss this. It seems the more choice there
+          is, the more overwhelmed we feel.
         </p>
+
         <button className="bg-black text-white px-12 py-4 text-[10px] uppercase font-bold tracking-widest mb-24 hover:bg-[#e61e77] transition-colors">
           Get In Touch
         </button>
